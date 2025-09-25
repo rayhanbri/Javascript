@@ -14,13 +14,15 @@
 // how javascript compiles 
 
 
-// var food = 38;
-// var orange = 40;
+// var apple  = 40;
+// var orange = 90;
 
-// //change it 
-// orange = 56
+// apple = 100;
 
-// console.log(food,orange )
+// //change it we can chagne var.  
+// 
+
+// console.log(apple,orange )
 
 
 // what is string ?
@@ -53,7 +55,7 @@
 
 // shorthand 
 // var price = 45;
-// price += 10;
+// price += 10; //no need to declare variable 
 // price -=10
 // price *=10
 
@@ -93,17 +95,18 @@
 // console.log(5<=10);  //true
 // console.log(10<=10);  //true
 // console.log(15<=10);  //flase
-// console.log(15>=10);  //flase
+// console.log(15>=10);  //true 
 
 
 ///
 
-// console.log(10=="10")  //true
-// console.log(10==="10") //false
+// console.log(10=="10")                   //true
+// console.log(10==="10")                  //false
 
-
-// console.log(10 !="10")  //false
-// console.log(10 !=="10") //true 
+     
+//  console.log(10 !="10")                      //false
+//  i have a question there 
+// console.log(10 !=="10")                      //true 
 
 // what is condition is javascript 
 //what is conditional statement in javascript 
@@ -120,6 +123,10 @@
 //     console.log("yes okay ")
 // }
 
+// /*what is conditional statement in javascript 
+// / difference between 3 equal and two equal in javascript . 
+
+
 
 // const price = 30
 
@@ -133,8 +140,8 @@
 
 
 const salary  = 100;
-const isBCS = true ;
-const house = false;
+const isBCS = false ;
+const house = true;
 
 // if(salary > 200 || isBCS == true  ){
 //     console.log('okay')
@@ -209,14 +216,14 @@ const house = false;
 // Ternary operator 
 //codition ? do somtheign : do something else 
 
-//     const age = 17
+    // const age = 17
 
 // age >=18 ? console.log('vode dio') : console.log('gumao ')
-
+// age >= 18 ? console.log('heloo') : console.log('tui to bacca')
 // complex ternary 
 
 
-// let price = 200;
+// let price = 200;     //eikhane const decalre korle kintu kaj hoi to na 
 // const isLeader =true;
 
 // // price = isLeader == true ? 0 : price + 100;
@@ -237,17 +244,17 @@ const house = false;
 
 const isLeader = true ; 
 
-if(!!isLeader){
-    console.log("chair char ")
+// if(!!isLeader){
+//     console.log("chair char ")
 
-}
-// if(!isLeader){
-//    console.log("chair char ")
+// }
+// // if(!isLeader){
+// //    console.log("chair char ")
 
-//  }
-else{
-    console.log("bose thak")
-}
+// //  }
+// else{
+//     console.log("bose thak")
+// }
 
 // why condition is important ?
 //go to JS-conditionals-task from programming hero and solve the problem
@@ -266,4 +273,46 @@ else{
 
 //What is the purpose of else if in a multi-level conditional statement?
 // ans : To execute code if the if condition is false and the else if condition is true 
+
+
+/***
+
+Ticket fare Calculator
+    - Children (age < 10): free
+    - Students get a 50% discount
+    - Senior citizens (age >= 60) gets a 15% Discount
+    - Otherwise Regular ticket fare 800 tk
+*/
+
+// const ticketPrice   = 800;
+// const age = 18;
+// const isStudent = true ;
+
+
+// if(age < 10) {
+//     console.log('you got free ')
+// }
+// else if(age >= 60){
+//     const discount = ticketPrice*15 / 100;
+//     console.log("15",discount)
+// }
+// else if(isStudent == true){
+//     const discount = ticketPrice*50 / 100;
+//     console.log("50",discount)
+// }
+// else{
+//     console.log(ticketPrice)
+// }
+
+
+// const num1 = 1;
+// const num2 = 2;
+
+// write it again  
+
+// const result = num1>num2 ? num1 * num1 :
+//  num1 <=num2 ? num1 + num2 : 0;
+
+//  console.log(result)
+
 
