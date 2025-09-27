@@ -487,6 +487,9 @@ const person = {
 // }
 
 
-const str = "Hello";
-str[0] = "h";
-console.log(str);
+// string is immutable ei jinista  kintu ami prochi kintu eikhane buji nai 
+// karon practive kore dhekhi nai 
+
+// const str = "Hello";
+// str[0] = "h";
+// console.log(str);
