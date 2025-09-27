@@ -192,3 +192,66 @@
 // }
 
 // console.log(unique([1,2,3,3]))
+
+
+/////// complex ////////
+
+// const Math = {
+//     min : function(num1,num2){
+//         return num1;
+//     }
+// }
+
+
+// console.log(Math.min(1,2,4,5))
+// console.log(Math.max[1,2,3,4])
+
+// console.log(Math.PI)
+// console.log(Math.abs(-1))  //eleminate the symbol
+
+// console.log(Math.round(4.5))      //jeitar kachakahci oi dhike  chole jabe
+// console.log(Math.round(4.2))
+
+// console.log(Math.floor(4.5))
+
+// console.log(Math.ceil(4.5))
+
+// console.log(Math.random())
+// console.log(Math.random()*10) //10 er modde daw 
+
+
+// console.log(Math.round(Math.random()*10))  
+
+const today= new Date();
+const date = new Date ("2026-10-19")
+// console.log(date) 
+// console.log(date.toLocaleDateString())
+ //ekhane month index hisebhe input dei ar out put dei 1 theke
+// console.log(date.getMonth()) 
+
+//unix ecop
+//moment.js explore
+
+
+
+//variable swaping 
+
+let a = 5;
+let b= 7;
+console.log(a,b)
+// a=b;
+// b=a;
+// console.log(a,b)
+// const temp = a;
+// a=b;
+// b=temp;
+// console.log(a,b)
+
+// it is not working why 
+
+// [a , b] = [b, a];
+
+// console.log(a,b)
+
+//git hub : js-problems-part1-practice task
+
