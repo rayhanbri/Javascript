@@ -236,9 +236,9 @@ const date = new Date ("2026-10-19")
 
 //variable swaping 
 
-let a = 5;
-let b= 7;
-console.log(a,b)
+// let a = 5;
+// let b= 7;
+// console.log(a,b)
 // a=b;
 // b=a;
 // console.log(a,b)
@@ -255,3 +255,30 @@ console.log(a,b)
 
 //git hub : js-problems-part1-practice task
 
+
+
+// What is the main difference between var and let?
+
+// var is function-scoped, and let is block-scoped
+
+// for (var i = 0; i < 5; i++) {
+//  	 setTimeout(function () {
+//  	console.log(i);
+//   }, 100);
+// }
+//and is 555555
+
+// What does Math.pow(2, 3) return?
+
+// Math.sqrt()
+
+// When using destructuring to swap variables, what happens if the variables have different data types?  not matter 
+
+
+// argument 
+// A value passed to a function when it is called 
+
+// What happens if a function is called with fewer arguments than it has parameters?
+
+// The missing arguments are filled with undefined
+ 
