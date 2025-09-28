@@ -1,9 +1,37 @@
 // console.log(22)
 
 // node frist .js 
+// Node (or Node.js) is a JavaScript runtime environment that allows you to run JavaScript code outside of a web browser.
+
+// Normally, JavaScript runs inside the browser (like Chrome, Firefox). But Node.js lets you use JavaScript on the server-side (backend).
+
+// Key points about Node.js:
+
+// ✅ Built on Chrome’s V8 JavaScript engine (very fast).
+
+// ✅ Lets you build server-side applications (APIs, web servers, backend systems).
+
+// what is non-blocking and event driven ? 
+
+// ✅ Uses non-blocking, event-driven architecture, which makes it great for handling many requests at the same time.
+
+// ✅ You can use JavaScript for full-stack development (both frontend and backend).
+
+// why developer  use Node.js ? 
 
 // what is variable ? 
-// why there is convention for declaring variable 
+// A variable is like a container that stores data in programming.
+
+// what is funciton scoped and block scoped 
+
+// var – old way (function-scoped, not commonly used now).
+
+// let – modern way (block-scoped, value can change).
+
+// const – modern way (block-scoped, value cannot be reassigned).
+
+// ------
+// // why there is convention for declaring variable 
 
 // what is javascript and why it is import for web? 
 
@@ -26,6 +54,7 @@
 
 
 // what is string ?
+// A string is a sequence of characters (letters, numbers, symbols, spaces) used to represent text in programming.
 
 // var name ="sodor uddin";
 // console.log(name)
@@ -62,15 +91,18 @@
 // console.log(price)
 
 // what is concatination 
+// In programming, concatenation means joining things together.
+
 // what is null in javascript 
+// In JavaScript, null is a special value that represents nothing or empty on purpose.
 
 
 // why this is happening 
 
-// const a = isNaN(11);
+// const a = isNaN('f');    //it is function 
 // console.log(a)
 
-// const b = isNaN(10-2);
+// const b = isNaN(10-2);      ///false mane numbers 
 // console.log(b)
 
 
@@ -103,10 +135,13 @@
 // console.log(10=="10")                   //true
 // console.log(10==="10")                  //false
 
+//only value comparison and value and type both comparision 
      
 //  console.log(10 !="10")                      //false
 //  i have a question there 
 // console.log(10 !=="10")                      //true 
+// because type different
+
 
 // what is condition is javascript 
 //what is conditional statement in javascript 
@@ -124,7 +159,7 @@
 // }
 
 // /*what is conditional statement in javascript 
-// / difference between 3 equal and two equal in javascript . 
+
 
 
 
@@ -217,6 +252,7 @@ const house = true;
 //codition ? do somtheign : do something else 
 
     // const age = 17
+    // const vote = age >= 17 ? console.log('vote daw') : console.log('dio na')
 
 // age >=18 ? console.log('vode dio') : console.log('gumao ')
 // age >= 18 ? console.log('heloo') : console.log('tui to bacca')
@@ -257,7 +293,7 @@ const isLeader = true ;
 // }
 
 // why condition is important ?
-//go to JS-conditionals-task from programming hero and solve the problem
+
 
 //hw making decision in your code mdn blogs read .
 //What is conditional branching? 

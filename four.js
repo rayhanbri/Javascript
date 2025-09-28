@@ -82,25 +82,27 @@
 
 //adding search funtionality
 
-const Products = [
-    {id:1,name:"Phone"},
-    {id:2,name:"Mobile"},
-    {id:3,name:"phone"},
-    {id:4,name:"mobile"}
-]
+// const Products = [
+//     {id:1,name:"Phone"},
+//     {id:2,name:"Mobile"},
+//     {id:3,name:"phone"},
+//     {id:4,name:"mobile"}
+// ]
 
 
-function search(products,str){
-    const keyword = [];
-    for(const product of products){
-        //lower case proe kortechi
-        if(product.name.toLowerCase().includes(str.toLowerCase())){
-            keyword.push(product)
-        }
-    }
-    return keyword
+// function search(products,str){
+//     const keyword = [];
+//     for(const product of products){
+//         //lower case proe kortechi
+//         if(product.name.toLowerCase().includes(str.toLowerCase())){
+//             keyword.push(product)
+//         }
+//     }
+//     return keyword
 
-}
+// }
 
 
-console.log(search(Products,"Mobile"))
+// console.log(search(Products,"Mobile"))
+
+//solve the problem which i have star mark 
