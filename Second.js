@@ -9,19 +9,22 @@
 
 
 //if is used for fixed conditions 
+// break marthe hoi 
 
-const theme = "red";
+const theme = "dark";
 
-// switch (theme){
-//     case "light":
-//         console.log('light theme applied')
+// switch(theme){
+//     case "light" :{
+//         console.log('this is light')
 //         break;
-//     case "dark":{
-//         console.log("dark theme applied")
-//         break;
+//     };
+//     case "dark" :{
+//         console.log('this is dark')
+//         break 
+//     };
+//     default :{
+//         console.log('this is red')
 //     }
-//     default :
-//     console.log("system theme applied")
 // }
 
 //why we use break 
@@ -56,7 +59,7 @@ const theme = "red";
 
 
 // get element from an array 
-const numbers= [1,23,4,5,9] 
+const numbers= [1,2,3,4]; 
 
 // console.log(numbers.length) 
 // console.log(numbers[4])
@@ -72,7 +75,7 @@ const numbers= [1,23,4,5,9]
 // console.log(numbers)
 
 // mouse hover kore  ami chaile shob jinis potro jene nite pari 
-// numbers.pop(6)   //just moja
+// numbers.pop(6)   //pop did not take any parameter ignore this just
 // we can see the variable we pop 
 // const numb1=numbers.pop(4);
 
@@ -81,9 +84,9 @@ const numbers= [1,23,4,5,9]
 // console.log(numb1) 
 
 
-numbers.shift()
+// numbers.shift()
 // Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
-numbers.unshift(0,1)
+// numbers.unshift(0,1) 
 // Inserts new elements at the start of an array, and returns the new length of the array. 
 
 
@@ -93,14 +96,17 @@ numbers.unshift(0,1)
 // console.log(numbers.includes(1))   //it is case sensitive
 
 
-// console.log(numbers.indexOf(1))   
+// console.log(numbers.indexOf(10))   
 // Returns the index of the first occurrence of a value in an array, or -1 if it is not present. 
 // console.log(numbers.indexOf(160))   //jodi na thake taile -1 ;
 
 // console.log(Array.isArray(numbers))  //true
 
-// console.log(Array.isArray(Array(5)))    //true
+// console.log(Array.isArray(Array(5)))   
+//  //true
 // When you call the Array constructor with a single number (5), it creates an empty array of length 5.
+// const array = Array(5)
+// console.log(array)
 
 // what is array join ? 
 // what is concat in array
@@ -145,12 +151,16 @@ numbers.unshift(0,1)
 // js-loop-tasks github
 
 // even number 
+// while loope must let diye declare korte hoi 
 
-// while (number < 5){
+// let number = 1;
+
+// while (number < 3){
+//     // console.log(number)    ///why infinity
 //     if(number % 2 === 0){
-//         console.log("number",number)
+//         console.log(number);
 //     }
-//     number ++;
+//     // number ++;
 // }
 
 
@@ -180,12 +190,18 @@ numbers.unshift(0,1)
 // 
 // differend ways to do a thing 
 
-//0/ 2  what will be the result 
+//0/ 2  what will be the result
+
+// console.log(0/0);    //nan
+//console.log(2/0);   infinity
+
+// console.log(0/2);  0
+
 
 // even numbers  
-// for (let i = 1 ; i <=10 ; i++){
-//     if(i % 2 === 0){
-//         console.log('this is even',i)
+// for(let i = 1; i<=10 ; i++){
+//     if(i % 2=== 0){
+//         console.log(i)
 //     }
 // }
 
@@ -232,7 +248,7 @@ numbers.unshift(0,1)
 // n JavaScript, a for loop is a control flow statement used to repeat a block of code a specific number of times.
 
 // for ( let i  = 1 ; i < 25 ; i++){
-//     if( i === 11){
+//     if( i <= 11){
 //         //ei khane kintu 10 porjonto run hobe 
 //         break ;
 //     }
@@ -272,7 +288,7 @@ numbers.unshift(0,1)
 // let number = 1;
 
 // while(number<10){
-//   ei khane ekta moja bhul korechi 
+// //   ei khane ekta moja bhul korechi 
 //     if(number % 2 === 0){
 //         continue ;
 //     }
@@ -326,12 +342,26 @@ numbers.unshift(0,1)
 // while loop checks the condition before executing the statements and do… while loop executes the statements at least once before checking the condition.
 
 
+let  number = 5;
+
+// while(number > 5){
+//     console.log(numbers)
+//     number ++;
+// }
+
+// do{
+//     console.log(number);
+//     number
+// }
+// while(number > 5)
+
+
 
 
 ///string vs array 
 //similarity between then
 //difference between them .
-//string is immuntable 
+//string is immuntable // string ke change kora jai na. 
 
 const capital = "Dhaka ";
 
@@ -342,6 +372,8 @@ const capital = "Dhaka ";
 // console.log(capital.toUpperCase());
 // console.log(capital.toLowerCase());
 // what is trim do 
+
+// In JavaScript, the .trim() method is used with strings to remove whitespace from both the beginning and the end of a string.
 // console.log(capital.trim()); 
 
 // const part = capital.slice(1,3);    //it maens 1 t0 2 
@@ -351,24 +383,33 @@ const capital = "Dhaka ";
 // console.log(part)
 
 
-const sentence = "I am a good boy";
+// const sentence = "I am a good boy";
 
 // console.log(sentence.split())      //it just make an array 
 // console.log(sentence.split(""))      //give me every letter space also
-// console.log(sentence.split(" "))  //cut every space 
+// console.log(sentence.split(" "))  //cut every space give word
 // console.log(sentence.split("a"))   //it cut a and make word
+// a er gia ghai space rakbhe 
 
 
 // const friends = "Rayhan,Alif,Owalid,Farhan"
+// console.log(Array.isArray(friends)) ///false 
 // console.log(Array.isArray(friends.split(",")))  //it return an array 
+
+// string k split korle ota array hoye jai
+// split return array  
 
 // how it works 
 // console.log(friends.split(","))
 
-// const friends = [ 'Rayhan', ' Alif', 'Owalid', 'Farhan' ];
+// const friends = [ 'Rayhan','Alif', 'Owalid', 'Farhan' ];
 // console.log(typeof(friends.join()))
 // console.log(friends.join(" "))  //, take badh diye dhibhe 
-// console.log(friends.join("-"))
+// console.log(friends.join(""))  //it is count the space on array
+// console.log(friends.join())   //it is not consider space
+// console.log(friends.join("|")) 
+
+// .join type string 
 
 
 // const frist = "Abid";
@@ -378,7 +419,7 @@ const sentence = "I am a good boy";
 // const fullName = frist.concat(last)    //it has no space
 // const fullName = frist.concat(' ').concat(last) 
 
-// console.log(fullName)
+// console.log(fullName) 
 // console.log(last.includes("x"))    ///it will return true flase 
 
 
@@ -386,7 +427,7 @@ const sentence = "I am a good boy";
 // reverse system 
 // how it is working 
 
-// const  name = "Hero"
+const  name = "Hero"
 // let reverse = '';
 // for(const nam of name){
 //     // console.log(nam)
@@ -402,8 +443,9 @@ const sentence = "I am a good boy";
 // }
 // console.log(reverse)
 
+// const reversed=name.split('').reverse().join("")
+// const reversed=name.split('').reverse().join()  // , ta theke jabhe 
 
-// const reversed = name.split("").reverse().join("");
 // console.log(reversed)
 
 //what is primitive and non-primitive data
@@ -428,7 +470,7 @@ const person = {
 
 
 //bracket notation 
-// console.log(person['age'])
+// console.log(person['salary'])
 // console.log(person['fav place'])
 //when we use barcket notaion 
 
@@ -465,7 +507,7 @@ const person = {
 
 
 // const pencil = new Object();
-// console.log(pencil)
+// console.log(pencil)   //{}
 // const pen = Object.create({});
 // console.log(pen)
 
@@ -474,12 +516,13 @@ const person = {
 
 // what is concatination 
 
-
+// i have a question here 
 // let str = "Mississippi";
-// console.log(str.indexOf("i", 3));
+// console.log(str.indexOf("i", 4));
 
 
-// const x = ""
+const x = ""
+// console.log(x.length)   //0
 // if(!x.length){
 // console.log("Hey")
 // }else{
