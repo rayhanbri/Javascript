@@ -2,6 +2,7 @@
 
 // const numbers = [1,2,3,4]
 // console.log(numbers.reverse())
+// console.log(numbers.length)
 
 
 // const reverseArray=[];
@@ -12,10 +13,10 @@
 
 // console.log(reverseArray)
 
-//reverse //this is very interestings
-// for(let i = numbers.length-1;i >=0;i--){
-//     const num = numbers[i];
-//     console.log(num)
+//reverse //this is very interestings   
+//index length cheye 1 kom
+// for(let i = numbers.length;i >=0;i--){
+//     console.log(i)
 // }
 
 
@@ -27,12 +28,13 @@
 
 // birat jhamela why? 
 //a to z A to Z ascii code. 
-// const numbers = [1,2,3,44,12,20,22];
+const numbers = [1, 2, 3, 44, 12, 20, 22];
+// const numbers1 = [2,3,6,3]
 
 // console.log(numbers.sort())
-
-// const asending = numbers.sort(function(a,b){return a-b})
-// console.log(asending)
+//asending e 44 aghe chole asche 
+// const ascending = numbers.sort(function(a,b){a-b})
+// console.log(ascending)
 // const desending = numbers.sort(function(a,b){return b-a})
 // console.log(desending)
 
@@ -66,6 +68,7 @@
 
 
 //what is argument ?
+// In JavaScript, an argument is a value you pass into a function or method when you call it.
 
 
 //return
@@ -164,12 +167,14 @@
 
 // function averageOfOddNumber(number){
 //     let sum = 0
+// let count = 0
 //     for(let num of number){
 //         if(num % 2 !== 0){
 //             sum = num + sum;
+// count++;
 //         }
 //     }
-//     const average = sum / number.length;
+//     const average = sum / count;
 //     return average
 
 // }
@@ -184,7 +189,8 @@
 //   let uniqueArray = [];
 //  for(const num of number){
 //     // ei code e jamela ache 
-//     if(uniqueArray.includes(num) === false){
+// why empty array 
+//     if(uniqueArray.includes(num)){
 //         uniqueArray.push(num)
 //     }
 //  }
@@ -204,6 +210,7 @@
 
 
 // console.log(Math.min(1,2,4,5))
+// why not working in array 
 // console.log(Math.max[1,2,3,4])
 
 // console.log(Math.PI)
@@ -222,19 +229,19 @@
 
 // console.log(Math.round(Math.random()*10))  
 
-const today= new Date();
-const date = new Date ("2026-10-19")
-// console.log(date) 
+const today = new Date();
+const date = new Date("2026-10-19")
+// console.log(date)
 // console.log(date.toLocaleDateString())
- //ekhane month index hisebhe input dei ar out put dei 1 theke
-// console.log(date.getMonth()) 
+//ekhane month index hisebhe input dei ar out put dei 1 theke
+// console.log(date.getMonth())
 
 //unix ecop
 //moment.js explore
 
 
 
-//variable swaping 
+//variable swaping
 
 // let a = 5;
 // let b= 7;
@@ -247,7 +254,7 @@ const date = new Date ("2026-10-19")
 // b=temp;
 // console.log(a,b)
 
-// it is not working why 
+// it is not working why
 
 // [a , b] = [b, a];
 
@@ -272,13 +279,13 @@ const date = new Date ("2026-10-19")
 
 // Math.sqrt()
 
-// When using destructuring to swap variables, what happens if the variables have different data types?  not matter 
+// When using destructuring to swap variables, what happens if the variables have different data types?  not matter
 
 
-// argument 
-// A value passed to a function when it is called 
+// argument
+// A value passed to a function when it is called
 
 // What happens if a function is called with fewer arguments than it has parameters?
 
 // The missing arguments are filled with undefined
- 
+
