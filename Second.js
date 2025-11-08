@@ -1,3 +1,5 @@
+// js-loop-tasks github
+
 // 1.// what is switch 
 
 // 1// In JavaScript, the switch statement is a type of conditional statement that is used to execute one block of code from multiple options, based on the value of an expression.
@@ -5,12 +7,11 @@
 
 
 
-
-
 //if is used for fixed conditions 
 // break marthe hoi 
 
 const theme = "light";
+
 
 // switch(theme){
 //     case "light" :{
@@ -46,15 +47,18 @@ const theme = "light";
 // 02 what is array ? Index , Elements ;
 // 1.How to  set and get value from an array??
 //2.How to add an element in the end of an array?
-//3.How to cut  the last element  from an array? (value jai daw kaj hobe na )
+//3.How to cut  the last element  from an array? (value jai daw kaj hobe na )How see the cuted value?
 //4.how to remove the frist element  of an array.what happen if the array is empty?
 //5.How insert elements at the frist of an array ?
+
 //6.how to get index of an element?it not what return ?
-//7.how to check the array have any elements?
+
+//7.how to check the array have any elements?what return if it is not exists?
+
 //8.how ceck it is array or not?
 //09.what it is done Array(5) ?
 
-// 02-------------
+// 002-------------
 // In JavaScript, an array is a special type of object used to store multiple values in a single variable.
 
 // Arrays are written with square brackets [ ].
@@ -74,7 +78,7 @@ const theme = "light";
 const numbers= [1,2,3,4]; 
 
 // console.log(numbers.length) 
-// console.log(numbers[4])
+// console.log(numbers[4])     //undefined 
 
 ///set or update element value in a array 
 
@@ -86,12 +90,12 @@ const numbers= [1,2,3,4];
 // numbers.push(3)
 // numbers.push(2,1,1)
 
-console.log(numbers)
+// console.log(numbers)
 
 // mouse hover kore  ami chaile shob jinis potro jene nite pari 
 // numbers.pop(6)   //pop did not take any parameter ignore this just
 // we can see the variable we pop 
-// const numb1=numbers.pop(100);
+// const numb1=numbers.pop();
 
 // console.log(numbers)
 
@@ -102,7 +106,7 @@ console.log(numbers)
 // console.log(numbers.includes(1))   //it is case sensitive
 
 
-// console.log(numbers.indexOf(10))   
+console.log(numbers.indexOf(10))   
 // Returns the index of the first occurrence of a value in an array, or -1 if it is not present. 
 // console.log(numbers.indexOf(160))   //jodi na thake taile -1 ;
 
@@ -122,7 +126,7 @@ console.log(numbers)
 
 /*looop *//////////////////////////////////////////
 
-//1.How to get all element from an array? fo and while loop?
+//001.How to get all element from an array? for and while loop?
 //2.What is While loop ?
 //3. sum of 1 to 10 number ? for and while loop?
 //4. get the even numbers with for and while loop? 3 ways to get it ?
@@ -134,6 +138,11 @@ console.log(numbers)
 //08. What is break and continue?
 //09.how for loop iterates over an array . 
 //10.difference between while and do while .
+
+// A decremental for loop (also called a reverse loop) is a loop where the loop variable decreases (instead of increasing) after each iteration.
+
+//what is iteration 
+// In JavaScript (and programming in general), iteration means repeating a process or executing a block of code multiple times, usually inside a loop.
 
 // const numbers = [1,2,3,4,5]
 
@@ -167,19 +176,19 @@ console.log(numbers)
 // }
 
 
-// js-loop-tasks github
+
 
 // even number 
 // while loope must let diye declare korte hoi 
 
 // let number = 1;
 
-// while (number < 3){
-//     // console.log(number)    ///why infinity
+// while (number > 3){
+//     console.log(number)    ///why infinity
 //     if(number % 2 === 0){
 //         console.log(number);
 //     }
-//     // number ++;
+//     number ++;
 // }
 
 
@@ -285,8 +294,7 @@ console.log(numbers)
 // }
 
 
-//what is iteration 
-// In JavaScript (and programming in general), iteration means repeating a process or executing a block of code multiple times, usually inside a loop.
+
 
 // Think of it like going step by step through items or repeating actions until a condition is met.
 //continue mane holo skip the code 
@@ -302,16 +310,17 @@ console.log(numbers)
 
 // here is problem in this code y6
 
-// let number = 1;
+let number = 1;
 
-// while(number<10){
-// //   ei khane ekta moja bhul korechi 
-//     if(number % 2 === 0){
-//         continue ;
-//     }
-//     console.log(number);
-//     number++ ;
-// }
+while(number<10){
+//   ei khane ekta moja bhul korechi 
+    if(number % 2 === 0){
+        continue ;
+        // err por ar niche jabe na upore chole jabe 
+    }
+    console.log(number);
+    number++ ;
+}
 
 
 

@@ -1,6 +1,13 @@
-//  const array = [1, 2, 3, 4, 5, 6, 7]; 
+// explore substring and sub str 
+//167 line 
+// 1.How for loop iterate on an array ? 
 
 // for loop iterates on index of an array
+
+
+
+ const array = [1, 2, 3, 4, 5, 6, 7]; 
+
 
 
 // i = 1 means it  will starts from 1 index 
@@ -20,10 +27,15 @@
 // while loop checks the condition before executing the statements and do… while loop executes the statements at least once before checking the condition.
 
 
-let  number =3;
-// // while loop returns an Object it is important 
+
+
+// what while loop returns 
+
+
+//!!while loop returns an Object it is important 
+// let  number =3;
 // while(number < 10){
-//     console.log(typeof numbers,number)
+//     console.log(typeof number,number)
 //     number ++;
 // }
 
@@ -46,6 +58,10 @@ let  number =3;
 //difference between them .
 //string is immuntable // string ke change kora jai na. 
 
+// 1.How to get length of an string , make Uppercase ,lowerdcaser? 
+//2. What is trim do ?
+//3.What is the differ between slice and splice ? 
+
 const capital = "Dhaka ";
 
 // console.log(capital.length )
@@ -61,16 +77,30 @@ const capital = "Dhaka ";
 
 // const part = capital.slice(1,3);    //it maens 1 t0 2 
 // console.log(capital)
-// explore substring and sub str 
+
 
 // console.log(part)
+
+
+//1.what is split ? 
+//2.how to make a string into array .how get every word of an stirng ? how get word devided by string   ? how cut  a word form an string? 
+//3.How to check is something is array or not ? 
+
+// string k split korle ota array hoye jai
+// split return array 
+
+
+
+
+
+
 
 
 const sentence = "I am a good boy";
 
 // split return array of a string 
 
-// console.log(sentence.split())      //it just make an array 
+// console.log(sentence.split())       //it just make an array 
 // console.log(sentence.split(""))      //give me every letter space also in an array 
 // console.log(sentence.split(" "))  //cut every space give word
 // console.log(sentence.split("a"))   //it cut a and make word
@@ -81,11 +111,21 @@ const sentence = "I am a good boy";
 // console.log(Array.isArray(friends)) ///false 
 // console.log(friends.split(","))  //it return an array 
 
-// string k split korle ota array hoye jai
-// split return array  
+ 
 
 // how it works 
 // console.log(friends.split(","))
+
+
+// join of an  in array 
+//1.what join return ? 
+//2. How to join every  element of an array whithout comma and space ? 
+// how to join with space between every elements ? 
+// How join with comma ? 
+//How join with fullstop or something else? 
+//
+
+
 
 const friends = [ 'Rayhan', 'Alif', 'Owalid', 'Farhan' ];
 // console.log(typeof(friends.join())) //string return koer
@@ -95,6 +135,17 @@ const friends = [ 'Rayhan', 'Alif', 'Owalid', 'Farhan' ];
 // console.log(friends.join("|")) 
 
 // .join type string 
+
+// concatinaton in array ? 
+//how add space manually between two variable 
+//how add with out space using concat()
+//how to add space using concat. 
+//how to use includes and what it returns ?
+
+
+
+
+
 
 
 // const frist = "Abid";
@@ -111,6 +162,11 @@ const friends = [ 'Rayhan', 'Alif', 'Owalid', 'Farhan' ];
 
 // reverse system 
 // how it is working 
+
+//1.how to reverse using split,and reverse
+
+
+
 
 const  name = "Hero"
 // how it is working i dont no 
@@ -139,6 +195,11 @@ const  name = "Hero"
 
 // having fun with Object
 //what is object method ?
+
+//1.How to get an property value from object tell two methods ? 
+//2.how to  use bracket and when we use it .
+//3.how get all the keys and values form object /
+//4. new object and Object.create()
 
 const person = {
     name : "rayhan",
@@ -206,9 +267,9 @@ const person = {
 // let str = "Mississippi";
 // console.log(str.indexOf("i", 4));
 
-
+// length zero ? 
 // const x = "" 
-// console.log(x.length)   //0
+// console.log(x.length)  
 // if(!x.length){
 // console.log("Hey")
 // }else{
